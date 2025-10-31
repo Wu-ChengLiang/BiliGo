@@ -1,0 +1,40 @@
+# 敏感配置文件 - 禁止提交真实凭证
+config.json
+comment_config.json
+
+# 环境文件
+.env
+.env.local
+.env.*.local
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 依赖和虚拟环境
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 导出文件
+export/
+
+# 缓存目录
+.cache/
